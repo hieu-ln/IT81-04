@@ -19,7 +19,7 @@ Node *ds;
 void xuat()
 {
 	Node *p = new Node;
-	p = ds;
+	p = first;
 	while (p != NULL)
 	{
 		cout << p->info << "  ";
